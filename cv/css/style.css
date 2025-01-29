@@ -1,0 +1,252 @@
+/* General Styles */
+body {
+margin: 2%;
+background-color: white;
+}
+
+/* Nav Styles */
+nav {
+background-color: #03316A;
+display: flex;
+justify-content: space-between;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+}
+
+nav p, nav a {
+color: white;
+padding-left: 15px;
+font-family: 'Oswald', sans-serif;
+font-weight: 200;
+}
+
+nav a {
+text-decoration: none;
+padding-right: 15px;
+} 
+
+nav a:hover {
+text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+background-color: #03316A;
+color: white;
+text-align: center;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+footer a {
+color: white;
+text-decoration: none;
+position: relative;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
+
+/* Splash Section */
+.splash {
+display: flex;
+flex-direction: row;
+align-items: center; 
+}
+
+.splash h1 {
+font-family: 'Oswald', sans-serif;
+font-size: 32px;
+font-weight: 600;
+color: #03316A;
+margin: 0px;
+margin-bottom: 40px;
+}
+
+.splash img {
+margin: 55px;
+border: solid 1px #03316A;  
+}
+
+.splash p {
+margin: 0px;
+margin-bottom: 15px;
+border-left: white;
+}
+
+.splash .text-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 20px;
+/* color: #03316A; */
+}
+
+/* Horizontal Rules */
+hr {
+border: 0.5px solid #03316A ;
+}
+
+/* Sections */
+section {
+font-size: 17px;
+}
+
+/* Section Headings */
+section h2 {
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+font-weight: 600;
+color: #03316A;
+}
+
+/* Paragraph Styles */
+section p {
+border-left: 3px solid #03316A;
+padding: 20px;
+line-height: 30px;
+}
+
+
+.skills ul {
+border-left: 3px solid #03316A;
+padding: 20px;
+line-height: 30px; 
+list-style-type: none;
+}
+
+/* link styles */
+section a {
+text-decoration: underline;
+color: black;
+}
+section a:hover {
+color: #03316A;
+}
+
+/* List Styles */
+ul {
+    list-style-type: circle;
+}
+
+dl {
+border-left: 3px solid #03316A;
+padding: 20px;
+line-height: 30px;
+display: grid;
+grid-template-columns: max-content 1fr;
+gap: 10px 20px;
+align-items: start;
+margin: 20px 0;
+}
+
+dl dt{
+font-weight: lighter;
+}
+
+dl dd{
+    font-style: italic;
+}
+
+/* Project Section */
+.three-col {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+}
+
+.card {
+box-shadow: 0 4px 8px 0 #03316A;
+margin-bottom: 50px;
+padding: 15px;
+text-align: center;
+}
+
+.card img {
+display: block;
+margin: 0 auto;
+max-width: 100%;
+height: auto;
+}
+
+
+.card h3 {
+color: #03316A;
+}
+
+/* Contact Page Styles */
+.one-col {
+/* color: #03316A; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+padding: 20px;
+background-color: #d6efff;
+box-shadow: 0 4px 8px #03316A;
+}
+
+form {
+width: auto;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+form input, form textarea {
+width: 50%;
+padding: 10px;
+border: 1px solid #03316A;
+text-align: left;
+margin: 0;
+}
+
+form input:focus, form textarea:focus {
+box-shadow: 0 0 5px #d6efff;
+}
+
+form button {
+width: 10%;
+padding: 3px;
+cursor: pointer;
+box-sizing: border-box;
+border-radius: 2px;
+background-color: #d6efff;
+color: #03316A;
+font-size: 9pt;
+
+}
+
+form button:hover {
+background-color: #03316A;
+color: #d6efff;
+transition: background-color 0.3s ease;
+}
+
+h1 {
+color: #03316A;
+}
+
+/* Thank You page*/
+.thank-you {
+background-color: #03316A;
+color: white;
+text-align: center;
+padding: 40px 0;
+font-family: 'Oswald', sans-serif;
+font-size: 20pt;
+margin-bottom: 30px;
+}
+
+.thank-you a{
+color: #d6efff;
+text-decoration: none;
+}
+
+.thank-you a:hover {
+    text-decoration: underline;
+}
